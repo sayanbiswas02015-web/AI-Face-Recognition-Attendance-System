@@ -1,0 +1,24 @@
+# Requirements for AI Face Attendance System
+# Python 3.11+ compatible (tested on 3.13)
+
+# Core vision / AI
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Face recognition
+insightface>=0.7.3
+onnxruntime>=1.16.0
+
+# UI
+customtkinter>=5.2.0
+pillow>=10.0.0
+
+# Security
+bcrypt>=4.0.0
+
+# Data & reporting
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# Packaging (optional)
+pyinstaller>=6.0.0
